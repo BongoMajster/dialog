@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F0F0"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dane usunieto: 0 razy"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/buttonDeleteData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuń dane" />
+
+</LinearLayout>
